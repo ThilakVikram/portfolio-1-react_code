@@ -1,6 +1,8 @@
 import ReactDom from "react-dom/client";
+// import ChessBoard from "./chess";
 import "./styles.css";
-import HomePage from "./pages/Home/index";
+import App from "./App";
 
-let root = ReactDom.createRoot(document.getElementById("root") as ReactDom.Container);
-root.render(<HomePage/>)
+let root = ReactDom.createRoot(document.getElementById("root") as HTMLElement);
+
+root.render(<App/>)
